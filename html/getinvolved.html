@@ -43,13 +43,15 @@
 </head>
 <body>
     <div class="contact-container">
-        <form action="" class="contact-left">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
           <div class="class contact-left-title">
             <h2>Send us a Message!</h2>
           </div>
+          <input type="hidden" name="access_key" value="a96adb65-7d31-4e57-b678-cd3c4bc1ee06">
           <input type="text"  name="name" placeholder="Your Name" class="contact-inputs"  required>
           <input type="email"  name="email" placeholder="Your Email" class="contact-inputs"  required>
           <textarea name="message"  placeholder="Your Message"  class="contact-inputs"  required></textarea>
+          <input type="hidden" name="redirect" value="https://web3forms.com/success">
           <button type="submit">Send</button>
         </form>
         <div class="contact-right">
