@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*------------Navigation bar--------*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 0px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-item {
+    margin-top: 0 15px;
+    margin: 0 15px
+}
+
+#get-involved {
+    margin-left: auto;
+    list-style: none;
+}
+
+#nav-bar ul li a:hover {
+    color: #0d38d3;
+}
