@@ -59,7 +59,7 @@ body{
     font-family:sans-serif
 }
 .contact-container{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;    
