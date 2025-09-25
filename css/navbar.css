@@ -39,7 +39,7 @@
 .nav-item.contact-us {
     border: solid;
     border-width: 5px;
-    border-radius: 5px;
+    border-radius: 50%;
     border-color: #FFDB8C;
     background-color: #FFDB8C;
 }
