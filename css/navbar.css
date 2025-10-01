@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*------------Navigation bar--------*/
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+#nav-bar ul li a:hover {
+    color: black;
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 0px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-item {
+    margin-top: 0 15px;
+    margin: 0 15px;
+}
+
+.nav-item a {
+    color: #398FB9;
+    font-weight: bold;
+}
+
+.nav-item.contact-us {
+    border: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    border-color: #FFDB8C;
+    background-color: #FFDB8C;
+}
