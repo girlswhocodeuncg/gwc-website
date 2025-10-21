@@ -12,53 +12,9 @@
    }
 }
 
-/*----------Footer----------*/
-
-.footer-container { 
-    background-color: white!important;
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-.footer {
-    width: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.footer div {
-    flex: 1;
-}
-
-.footer-heading.f2 img {
-    max-width: 60px;
-    height: auto;
-}
-
-
-.f1 {
-    justify-content: right;
-}
-
-.f1 p {
-    width: 50%;
-}
-
-.f2 {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-
-
-/*This is a placeholder background gradient. We will add the background image once the content team makes it!*/
 body {
-    background-image: linear-gradient(to bottom right, #d4f2fd, #f6e3e2, #fff6d5);
     height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url('../assets/Background-4.jpg');
+    background-size: cover;
+    background-position: center;
 }
