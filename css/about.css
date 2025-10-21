@@ -9,12 +9,19 @@
         width: auto;
    }
 }
-
-/*This is a placeholder background gradient. We will add the background image once the content team makes it!*/
 body {
-    background-image: linear-gradient(to bottom right, #d4f2fd, #f6e3e2, #fff6d5);
     height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
+    background-image: url('../assets/Background-2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.about-header {
+    background-image: url('../assets/Half-Background.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
     background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
