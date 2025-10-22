@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Involved</title>
+  <t2>Events Dashboard</t2>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color:#fcfa8b;
+      margin:1 ;
+      padding: 20px;
+    }
+    .dashboard{
+      display:flex;
+      flex-wrap:wrap;
+      gap:20px;
+      max-width:1000px;
+      background-color:whitesmoke;
+      padding:20px;
+      border-radius:10px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    }
+  </style>
+
+ 
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+  <style>
+  body {
+        font-family: 'Raleway', sans-serif;
+  }
+
+  h1{
+      font-family:'Bebas Neue',sans-serif;
+      font-size: 3em;
+      text-align:center;
+      margin-bottom: 40px;
+      color: #004aad;
+  }
+
+  h2 {
+      text-align: center;
+  }
+
+    .faq-container {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .faq-item {
+
+      border-radius: 10px;
+      margin-bottom: 10px;
+      box-shadow: 0 2px 5px rgb(0, 0, 0);
+      overflow: hidden;
+    }
+
+    .faq-question {
+      padding: 20px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      cursor: pointer;
+      background-color: #fcfa8b;
+      color: rgb(17, 131, 201);
+      transition: background 0.3s;
+    }
+
+    .faq-question:hover {
+      background-color: #d8db2d;
+    }
+    .faq-answer {
+      display: none;
+      padding: 20px;
+     
+    }
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+
+    .welcome-message {
+      text-align: center;
+      font-size: 1.2em;
+      .address-heading {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  color: #004aad;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.address-text {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: #333;
+  line-height: 1.6;
+}
+
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgba(85, 160, 234, 0.909);">
+  <h1>Get Involved with GWC @ UNCG!</h1>
+  <p class="welcome-message">
+    Welcome! Find answers to common questions below.
+  </p>
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-container">
+    <div class="faq-item">
+      <button class="faq-question">
+        What are the membership requirements?
+        <span class="icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <p>Membership is open to anyone interested in supporting our projects </p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">
+        Do I need experience to volunteer?       
+        <span class="icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <p>No experience needed! We’ll train you on everything you need to know about our projects and outreach programs.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">
+        How can I join the email list (E-broad)?
+        <span class="icon">+</span>
+      </button>
+      <div class="faq-answer">
+        <p>You can support us by donating through our online platform or sponsoring materials for our upcoming competitions.</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js" defer></script>
+   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/University_of_North_Carolina_at_Greensboro_logo.svg/250px-University_of_North_Carolina_at_Greensboro_logo.svg.png">  <img src="">
+
+  <script>
+    const questions = document.querySelectorAll('.faq-question');
+
+    questions.forEach(q => {
+      q.addEventListener('click', () => {
+        const parent = q.parentElement;
+        parent.classList.toggle('active');
+      });
+    });
+  </script>
+  <div class="heading-grid">
+    <h2 style="text-align:left;">Physical Address</h2>
+   
+    <div class="address-text">
+    </div> 
+
+  <p class="address-text">
+    University of North Carolina at Greensboro<br>
+    1400 Spring Garden St<br>
+    Greensboro, NC 27412
+    <h2 style="text-align: left;">Social Media</h2>
+    <p class="address-text">
+    </p>
+  </p>
+<a href="https://www.instagram.com/gwc.uncg/">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7zM_-H-rrqF5P77NbLIjDuco8jXoezadq4M1wDbixu41Egu6iH5BZP4Z17CBWKq5xsUY&usqp=CAU" <img src="" width="50" height="50">
+</a>
+
+  
+
+</body>
+</html>
