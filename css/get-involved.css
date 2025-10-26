@@ -9,3 +9,9 @@ body {
     background-size: cover;
     background-position: center;
 }
+
+/*Fixed height is set to give you an idea of what the page will look like.
+It doesn't have to be this size. Adjust as needed*/
+.get-involved {
+    height: 400vh;
+}
