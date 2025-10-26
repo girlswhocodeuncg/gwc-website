@@ -17,6 +17,10 @@ body {
     background-position: center;
 }
 
+.home {
+    height: 400vh;
+}
+
 .half-background {
     background-image: url('../assets/Half-Background.jpg');
     background-repeat: no-repeat; 
@@ -27,7 +31,3 @@ body {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 
-
-.home {
-    height: 400vh;
-}
