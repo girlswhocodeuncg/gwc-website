@@ -2,18 +2,16 @@
     margin: 0;
     padding: 0;
 }
-/*---Styles for smaller screens---*/
-@media (max-width: 780px) {
-    #get-involved {
-        text-align: center;
-        width: auto;
-   }
-}
+
 body {
     height: 100%;
     background-image: url('../assets/Background-2.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.about {
+    height: 400vh;
 }
 
 .about-header {
