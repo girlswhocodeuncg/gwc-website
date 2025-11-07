@@ -15,3 +15,44 @@ It doesn't have to be this size. Adjust as needed*/
 .get-involved {
     height: 400vh;
 }
+.accordion {
+  background-color: transparent;
+  color: #000000;
+  cursor: pointer;
+  padding: 15px;
+  width: 80%;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  box-shadow: 0 1.5px 0 #398FB9;
+}
+
+.active, .accordion:hover {
+  background-color: #E5F8FF;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  width: 75%;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+.accordion:after {
+  content: '\25BD'; 
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2796"; 
+}
+.faq-header {
+text-transform: uppercase;
+text-align: center;
+color: #398FB9;
+}
