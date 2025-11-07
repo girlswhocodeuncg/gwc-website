@@ -1,5 +1,6 @@
 
 footer {
+    margin-top: auto;
     background-image: linear-gradient(to bottom right, #d4f2fd, #f6e3e2, #fff6d5);
 }
 
@@ -8,7 +9,7 @@ footer {
 }
 
 .row h6 {
-     color: black;
+     color: #398FB9;
 }
 
 .row a {
