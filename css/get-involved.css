@@ -15,6 +15,12 @@ It doesn't have to be this size. Adjust as needed*/
 .get-involved {
     height: 400vh;
 }
+.calendar-container {
+  display:block;
+  margin:auto;
+  padding: 40px;
+  box-shadow: 5px,5px 5px #000000;
+}
 .accordion {
   background-color: transparent;
   color: #000000;
