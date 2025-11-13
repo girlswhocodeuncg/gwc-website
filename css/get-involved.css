@@ -27,7 +27,7 @@ It doesn't have to be this size. Adjust as needed*/
   border-top-style:none;
   border-left-style:none;
   border-right-style:none;
-  border-width: 1.5px;
+  border-width: 2px;
   border-color:#398FB9;
   text-align: center;
   text-transform: uppercase;
@@ -44,7 +44,7 @@ It doesn't have to be this size. Adjust as needed*/
   padding: 2px 18px;
   background-color: white;
   max-height: 0;
-  width: 75%;
+  width: 80%;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
   display:block;
@@ -52,7 +52,7 @@ It doesn't have to be this size. Adjust as needed*/
   text-align: center;
 }
 .accordion:after {
-  content: '\25BD'; 
+  content: '\002B'; 
   color: #777;
   float: right;
   margin-left: 5px;
@@ -60,8 +60,12 @@ It doesn't have to be this size. Adjust as needed*/
 .active-acc:after {
   content: "\2796"; 
 }
-.faq-header {
+.get-involved-header {
 text-transform: uppercase;
 text-align: center;
 color: #398FB9;
+padding: 10px;
+border-bottom: 3px solid #398FB9;
+margin: auto;
+width: 50%;
 }
