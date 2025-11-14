@@ -12,6 +12,10 @@
    }
 }
 
+@media (min-width: 781px){
+    
+}
+
 body {
     height: 100%;
     background-image: url('../assets/Background-4.jpg');
