@@ -1,25 +1,107 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    height: 100%;
-    background-image: url('../assets/Background-2.jpg');
-    background-size: cover;
-    background-position: center;
+  min-height: 100vh;
+  background-image: url("../assets/Background-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .about {
-    height: 400vh;
+  height: 400vh;
 }
 
 .about-header {
-    background-image: url('../assets/Half-Background.jpg');
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-attachment: fixed;
-    width: 100%;
-    height: 100vh;
-    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  background-image: url("../assets/Half-Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.about-header h1 {
+  text-align: center;
+  padding: 50px;
+  color: #398fb9;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 10px;
+  font-weight: bolder;
+  font-size: 80px;
+  border-top-width: 40px;
+  padding-top: 200px;
+  line-height: 1.4;
+}
+
+.about-title {
+  text-align: left-center;
+  margin-top: 50px;
+  color: #398fb9;
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 200px;
+  text-transform: uppercase;
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+.about-info {
+  text-align: left;
+  margin-top: 20px;
+  color: black;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  padding-left: 200px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-right: 200px;
+  margin-bottom: 100px;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.members-description {
+  text-align: center;
+  margin-top: 15px;
+  color: black;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+}
+.link-blue {
+  color: #398fb9;
+  text-decoration: underline;
+}
+
+.link-blue:hover {
+  color: #2a6d8f;
+}
+
+.profile-card h4{
+ font-weight: bold;
 }
