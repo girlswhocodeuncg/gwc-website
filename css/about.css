@@ -73,25 +73,59 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 40px;
-  margin-top: 40px;
-  padding-left: 200px;
-  padding-right: 200px;
+  gap: 90px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #ffffff 0%, #fff9f9 100%);
+  padding: 30px;
+  border-radius: 25px;
+  width: 240px;
+  height: 360px;
+  box-sizing: border-box;
+  border: 4px solid #f6e3e2;
+  box-shadow: 0 8px 20px rgba(246, 227, 226, 0.3), 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(246, 227, 226, 0.4), 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: #f0d0ce;
 }
 
 .avatar {
-  width: 300px;
-  height: 300px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
+  border: 4px solid #f6e3e2;
+  box-shadow: 0 4px 12px rgba(246, 227, 226, 0.4);
 }
 
 .members-description {
   text-align: center;
-  margin-top: 15px;
-  color: black;
+  margin-top: 18px;
+  color: #2c2c2c;
   font-family: "Arial", sans-serif;
-  font-size: 18px;
+  font-size: 15px;
+  line-height: 1.5;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 80px;
+}
+
+.members-description p {
+  color: #666;
+  margin-top: 5px;
+  font-size: 14px;
 }
 .link-blue {
   color: #398fb9;
@@ -104,4 +138,67 @@ body {
 
 .profile-card h4{
  font-weight: bold;
+}
+
+.linkedin-btn {
+  margin-top: 15px;
+  padding: 8px;
+  background-color: #f6e3e2;
+  color: #d4918e;
+  text-decoration: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 2px solid #f0d0ce;
+  transition: all 0.3s ease;
+}
+
+.linkedin-btn svg {
+  width: 30px;
+  height: 30px;
+}
+
+.linkedin-btn:hover {
+  background-color: #f0d0ce;
+  color: #c47a76;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(246, 227, 226, 0.5);
+}
+
+.github-btn {
+  margin-top: 15px;
+  padding: 8px;
+  background-color: #f6e3e2;
+  color: #d4918e;
+  text-decoration: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 2px solid #f0d0ce;
+  transition: all 0.3s ease;
+}
+
+.github-btn svg {
+  width: 30px;
+  height: 30px;
+}
+
+.github-btn:hover {
+  background-color: #f0d0ce;
+  color: #c47a76;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(246, 227, 226, 0.5);
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 15px;
 }
