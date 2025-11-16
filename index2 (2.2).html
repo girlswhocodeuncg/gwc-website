@@ -4,25 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Get Involved</title>
-  <t2>Events Dashboard</t2>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      background-color:#fcfa8b;
-      margin:1 ;
-      padding: 20px;
-    }
-    .dashboard{
-      display:flex;
-      flex-wrap:wrap;
-      gap:20px;
-      max-width:1000px;
-      background-color:whitesmoke;
-      padding:20px;
-      border-radius:10px;
-      box-shadow:0 10px 25px rgba(0,0,0,0.15);
-    }
-  </style>
+  
+<style>
+  :root {
+  --primary: rgb(124, 124, 236) #004aad;      /* UNCG blue */
+  --secondary: #fcfa8b;    /* UNCG yellow */
+  --accent: rgb(206, 206, 166) #ff6f91;       /* GWC pink */
+  --background: #f8f9fa;   /* soft gray-white */
+  --text: #222;
+}
+ 
 
  
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
@@ -32,6 +23,15 @@
   <style>
   body {
         font-family: 'Raleway', sans-serif;
+  }
+
+  .bubbles span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 5px;
+    background: rgba(255, 111, 145, 0.15); /* pink accent bubbles */
   }
 
   h1{
@@ -88,7 +88,7 @@
   font-family: 'Bebas Neue', sans-serif;
   font-size: 2rem;
   color: #004aad;
-  text-align: left;
+  text-align: center;
   margin-top: 40px;
   margin-bottom: 10px;
   letter-spacing: 1px;
@@ -101,15 +101,45 @@
   color: #333;
   line-height: 1.6;
 }
+  /* --- Footer --- */
+  footer {
+    background-color: var(--primary);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.9em;
 
     }
+    <body>
+  <!-- White backdrop layer -->
+  <div style="
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: -2;">
+  </div>
+
+  <!-- Floating bubbles -->
+  <div class="color-bubbles">
+    <span class="bubble blue"></span>
+    <span class="bubble gold"></span>
+    <span class="bubble pink"></span>
+  </div>
   </style>
   <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: rgba(85, 160, 234, 0.909);">
-  <h1>Get Involved with GWC @ UNCG!</h1>
-  <p class="welcome-message">
+<div style="background-color: white; padding: 30px; border-radius: 20px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); max-width: 800px; margin: 40px auto;">
+  <h1 style="color:#004aad; text-align:center;">Get Involved with GWC @ UNCG!</h1>
+  <p style="text-align:center;">
     Welcome! Find answers to common questions below.
+  </p>
+</div>
+<body style="background-color: rgba(85, 160, 234, 0.909);">
+  <p class="welcome-message">
   </p>
   <h2>Frequently Asked Questions</h2>
   <div class="faq-container">
@@ -124,7 +154,7 @@
     </div>
     <div class="faq-item">
       <button class="faq-question">
-        Do I need experience to volunteer?       
+        Do I need experience to volunteer?
         <span class="icon">+</span>
       </button>
       <div class="faq-answer">
@@ -154,25 +184,44 @@
       });
     });
   </script>
-  <div class="heading-grid">
-    <h2 style="text-align:left;">Physical Address</h2>
-   
-    <div class="address-text">
-    </div> 
-
   <p class="address-text">
+  <h2 style="text-align:left;">Physical Address</h2>  
     University of North Carolina at Greensboro<br>
     1400 Spring Garden St<br>
     Greensboro, NC 27412
-    <h2 style="text-align: left;">Social Media</h2>
-    <p class="address-text">
     </p>
-  </p>
+  <h2 class="adress-text">
+  <h2 style="text-align:left;">Social Media  
+  </h2>
+</p>
 <a href="https://www.instagram.com/gwc.uncg/">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7zM_-H-rrqF5P77NbLIjDuco8jXoezadq4M1wDbixu41Egu6iH5BZP4Z17CBWKq5xsUY&usqp=CAU" <img src="" width="50" height="50">
 </a>
 
-  
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#join">Join</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div id="events" class="section">
+        <h2 style="text-align:left;">Upcoming Events
+          </h2>
+    <p>
+      Stay tuned for our fall coding workshops and community outreach events!  
+    </p>
+    <div class="color-bubbles">
+      <span class= "bubble blue"></span>
+      <span class="bubble yellow"></span>
+      <span class="bubble pink"></span>   
+    </div>
 
+
+
+    <footer>
+      <p>© 2025 Girls Who Code @ UNCG | Designed by the GWC Web Development Team</p>
+    </footer>
 </body>
 </html>
