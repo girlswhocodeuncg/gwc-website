@@ -3,143 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Get Involved</title>
-  
+<title>Get Involved</title>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root {
-  --primary: rgb(124, 124, 236) #004aad;      /* UNCG blue */
-  --secondary: #fcfa8b;    /* UNCG yellow */
-  --accent: rgb(206, 206, 166) #ff6f91;       /* GWC pink */
-  --background: #f8f9fa;   /* soft gray-white */
-  --text: #222;
-}
- 
-
- 
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
-
-  <style>
   body {
-        font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color:#fcfa8b;
+    margin:1px;
+    padding: 20px;
+    background-image: url('https://raw.githubusercontent.com/girlswhocodeuncg/gwc-website/main/assets/Background-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
-
-  .bubbles span {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin: 5px;
-    background: rgba(255, 111, 145, 0.15); /* pink accent bubbles */
+  .dashboard{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    max-width:1000px;
+    background-color:whitesmoke;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
   }
-
-  h1{
-      font-family:'Bebas Neue',sans-serif;
-      font-size: 3em;
-      text-align:center;
-      margin-bottom: 40px;
-      color: #004aad;
-  }
+</style>
+<style>
+    body {
+      background-image: url('https://raw.githubusercontent.com/girlswhocodeuncg/gwc-website/refs/heads/get-involved/assets/Background-1.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
 
   h2 {
-      text-align: center;
-  }
-
-    .faq-container {
-      max-width: 700px;
-      margin: 0 auto;
-    }
-
-    .faq-item {
-
-      border-radius: 10px;
-      margin-bottom: 10px;
-      box-shadow: 0 2px 5px rgb(0, 0, 0);
-      overflow: hidden;
-    }
-
-    .faq-question {
-      padding: 20px;
-      font-size: 1.2rem;
-      font-weight: 600;
-      cursor: pointer;
-      background-color: #fcfa8b;
-      color: rgb(17, 131, 201);
-      transition: background 0.3s;
-    }
-
-    .faq-question:hover {
-      background-color: #d8db2d;
-    }
-    .faq-answer {
-      display: none;
-      padding: 20px;
-     
-    }
-    .faq-item.active .faq-answer {
-      display: block;
-    }
-
-    .welcome-message {
-      text-align: center;
-      font-size: 1.2em;
-      .address-heading {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 2rem;
-  color: #004aad;
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 10px;
-  letter-spacing: 1px;
-}
-
-.address-text {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1rem;
-  text-align: center;
-  color: #333;
-  line-height: 1.6;
-}
-  /* --- Footer --- */
-  footer {
-    background-color: var(--primary);
-    color: white;
     text-align: center;
+  }
+  .faq-container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .faq-item {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    overflow: hidden;
+  }
+  .faq-question {
     padding: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #fcfa8b;
+    color: rgb(17, 131, 201);
+    transition: background 0.3s;
+  }
+  .faq-question:hover {
+    background-color: #d8db2d;
+  }
+  .faq-answer {
+    display: none;
+    padding: 20px;
+  }
+  .faq-item.active .faq-answer {
+    display: block;
+  }
+  .welcome-message {
+    text-align: center;
+    font-size: 1.2em;
+  }
+  .address-heading {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    color: #004aad;
+    text-align: left;
     margin-top: 40px;
-    font-size: 0.9em;
-
-    }
-    <body>
-  <!-- White backdrop layer -->
-  <div style="
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    z-index: -2;">
-  </div>
-
-  <!-- Floating bubbles -->
-  <div class="color-bubbles">
-    <span class="bubble blue"></span>
-    <span class="bubble gold"></span>
-    <span class="bubble pink"></span>
-  </div>
-  </style>
-  <link rel="stylesheet" href="style.css">
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+  }
+  .address-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #333;
+    line-height: 1.6;
+  }
+.right {
+  float: right;
+  margin-left: 20px;
+}
+</style>
 </head>
-<div style="background-color: white; padding: 30px; border-radius: 20px; box-shadow: 0 6px 15px rgba(0,0,0,0.1); max-width: 800px; margin: 40px auto;">
-  <h1 style="color:#004aad; text-align:center;">Get Involved with GWC @ UNCG!</h1>
-  <p style="text-align:center;">
-    Welcome! Find answers to common questions below.
-  </p>
-</div>
 <body style="background-color: rgba(85, 160, 234, 0.909);">
-  <p class="welcome-message">
+  <h1>Get Involved with GWC @ UNCG!</h1>
+  <p>
+    Welcome! Find answers to common questions below.
   </p>
   <h2>Frequently Asked Questions</h2>
   <div class="faq-container">
@@ -154,7 +112,7 @@
     </div>
     <div class="faq-item">
       <button class="faq-question">
-        Do I need experience to volunteer?
+        Do I need experience to volunteer?       
         <span class="icon">+</span>
       </button>
       <div class="faq-answer">
@@ -169,59 +127,155 @@
       <div class="faq-answer">
         <p>You can support us by donating through our online platform or sponsoring materials for our upcoming competitions.</p>
       </div>
+      <script>
+  const faqItems = document.querySelectorAll('.faq-item');
+
+  faqItems.forEach(item => {
+    const btn = item.querySelector('.faq-question');
+
+    btn.addEventListener('click', () => {
+      item.classList.toggle('active');
+    });
+  });
+</script>
+
     </div>
   </div>
   <script src="script.js" defer></script>
-   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/University_of_North_Carolina_at_Greensboro_logo.svg/250px-University_of_North_Carolina_at_Greensboro_logo.svg.png">  <img src="">
 
-  <script>
-    const questions = document.querySelectorAll('.faq-question');
+<div class="info-layout">
+  
+  <div class="calendar-section">
+ <section>
+    <h2 class="get-involved-header"></h2>
+    <h2 style="text-align:center;">Upcoming Events Calendar</h2>
+  <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&showTitle=0&showCalendars=0&src=Y183ZjhlMTcxZWUwYTY1YTc1MjA2ZmFjMTBhNjBjMGZiYzRlNmRmNWU1NmIwNDY2YjJkNGVmYjk5NGQ2ZDk0Y2FjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23c0ca33" width="700" height="500" class="calendar-container"></iframe>
+  <style>
+    .calendar-container {
+  display: block;
+  margin: 0 auto;
+}
 
-    questions.forEach(q => {
-      q.addEventListener('click', () => {
-        const parent = q.parentElement;
-        parent.classList.toggle('active');
-      });
-    });
-  </script>
-  <p class="address-text">
-  <h2 style="text-align:left;">Physical Address</h2>  
-    University of North Carolina at Greensboro<br>
-    1400 Spring Garden St<br>
-    Greensboro, NC 27412
+  </style>
+
+</section>
+<p>
+      Stay tuned for our fall coding workshops and community outreach events!  
+    <style>
+      .calendar-section p{
+        text-align: center;
+        
+      }
+    </style>
+  
     </p>
-  <h2 class="adress-text">
-  <h2 style="text-align:left;">Social Media  
-  </h2>
-</p>
-<a href="https://www.instagram.com/gwc.uncg/">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7zM_-H-rrqF5P77NbLIjDuco8jXoezadq4M1wDbixu41Egu6iH5BZP4Z17CBWKq5xsUY&usqp=CAU" <img src="" width="50" height="50">
+
+  </div>
 </a>
 
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#events">Events</a></li>
-      <li><a href="#join">Join</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  <div id="events" class="section">
-        <h2 style="text-align:left;">Upcoming Events
-          </h2>
-    <p>
-      Stay tuned for our fall coding workshops and community outreach events!  
-    </p>
-    <div class="color-bubbles">
-      <span class= "bubble blue"></span>
-      <span class="bubble yellow"></span>
-      <span class="bubble pink"></span>   
+  </div>
+
+<div>
+<nav>
+  <ul>
+    <li><a href="https://discord.com/invite/fEhECu4bWa?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnkMg4MNSufKRsUr6-647OKUuTA26f2jiuZzT19GgfzA1b0EQM4w9MLCxiJOw_aem_pgTvNxzsi0UxHW1V9eFZLg">">Join</a></li>
+    <li><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSDbFjvqKsmXjTnWtDZVxqJrMHGcSNQxKsqsxwsHCQkLFqwtsDWlrQBxmmZzpJckfppSpdfk">Contact</a></li>
+  </ul>
+</nav>
+
+<style>
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;   /* moves everything to the right */
+    gap: 20px;
+  }
+
+  nav a {
+    text-decoration: none;
+    font-weight: 600;
+  }
+</style>
+<section id="about" class="section">
+  
+
+  </p>
+</section>
+  
+  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/get-involved.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="icon" type="image/png" href="./assets/gwc_logo.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <footer>
+
+    </footer>
+<style>
+footer {
+    margin-top: auto;
+    background-image: linear-gradient(to bottom right, #d4f2fd, #f6e3e2, #fff6d5);
+}
+
+.row p {
+    color: black;
+}
+
+.row h6 {
+     color: #398FB9;
+}
+
+.row a {
+    color: black;
+}
+
+.gwc-footer-details {
+    font-size: 15px;
+    text-align: start;
+}
+</style>
+<footer class="mt-5 p-4">
+  <div class="container">
+    <div class="row">
+
+      <!-- Logo -->
+       <div class="col-md-4 d-flex justify-content-center justify-content-md-start mb-3 align-items-center">
+  <img 
+    src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/University_of_North_Carolina_at_Greensboro_logo.svg/250px-University_of_North_Carolina_at_Greensboro_logo.svg.png"
+    alt="UNCG Logo"
+    style="width: 350px; height: auto; object-fit: contain; margin-left: auto; display: block;">
+</div>
+
+
+      <!-- Contact Details -->
+      <div class="col-md-4 gwc-footer-details mb-3">
+        <h6>Girls Who Code @ UNCG</h6>
+        <p>University of North Carolina at Greensboro<br>
+           Greensboro, NC 27412</p>
+        <p>Email: girlswhocodeatuncg@gmail.com </p>
+      </div>
+
+      <!-- Social Media Links -->
+      <div class="col-md-4 gwc-footer-details mb-3">
+        <h6>Follow Us</h6>
+        <a href="https://www.instagram.com/gwc.uncg/" target="_blank">Instagram</a><br>
+        <a href="https://discord.com/invite/fEhECu4bWa?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnkMg4MNSufKRsUr6-647OKUuTA26f2jiuZzT19GgfzA1b0EQM4w9MLCxiJOw_aem_pgTvNxzsi0UxHW1V9eFZLg">Discord</a><br>
+        <a href="#">Website</a>
+      </div>
+
     </div>
 
-
-
-    <footer>
+    <div class="text-center mt-3">
       <p>© 2025 Girls Who Code @ UNCG | Designed by the GWC Web Development Team</p>
-    </footer>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
 </body>
 </html>
