@@ -15,6 +15,26 @@ It doesn't have to be this size. Adjust as needed*/
 .get-involved {
     height: 400vh;
 }
+.get-involved-subheader{
+  padding-top: 30px;
+}
+.rounded-rectangle{
+  display:block;
+  margin:auto;
+ width: 800px;
+ height: 100px;
+ background-color: white;
+ border-radius: 100px;
+ border-style:solid;
+ border-width: 3px;
+ box-shadow: 4px 4px 2px #1a516d60;
+}
+#subheader-text{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 25px;
+  text-shadow: 2px 2px 2px #1a516d60;
+}
 .calendar-container {
   display:block;
   margin:auto;
