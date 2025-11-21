@@ -51,7 +51,7 @@ It doesn't have to be this size. Adjust as needed*/
 
 .panel {
   padding: 2px 18px;
-  background-color: white;
+  background-color: #FFFFFF50;
   max-height: 0;
   width: 80%;
   overflow: hidden;
