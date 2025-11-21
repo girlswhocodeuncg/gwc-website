@@ -21,6 +21,9 @@ It doesn't have to be this size. Adjust as needed*/
   padding: 40px;
   box-shadow: 5px,5px 5px #000000;
 }
+.faq-section{
+  padding-bottom:80px;
+}
 .accordion {
   background-color: transparent;
   color: #000000;
