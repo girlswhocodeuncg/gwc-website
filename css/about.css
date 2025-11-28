@@ -3,8 +3,13 @@
   padding: 0;
 }
 
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 body {
-  min-height: 100vh;
   background-image: url("../assets/Background-2.jpg");
   background-size: cover;
   background-position: center;
@@ -13,7 +18,7 @@ body {
 }
 
 .about {
-  height: 400vh;
+  height: auto;
 }
 
 .about-header {
