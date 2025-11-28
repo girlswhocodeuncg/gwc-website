@@ -74,6 +74,12 @@ body {
   margin-bottom: 100px;
 }
 
+#e-board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+}
+
 .members {
   display: flex;
   flex-wrap: wrap;
