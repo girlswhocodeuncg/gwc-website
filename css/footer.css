@@ -1,7 +1,7 @@
 
 footer {
-    margin-top: auto!important;
-    background-image: linear-gradient(to bottom right, #d4f2fd, #f6e3e2, #fff6d5);
+    margin-top: auto;
+    background-image: linear-gradient(to right, #d4f2fd, #f6e3e2, #fff6d5);
 }
 
 .row p {
