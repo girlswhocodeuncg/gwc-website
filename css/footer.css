@@ -1,0 +1,22 @@
+
+footer {
+    margin-top: auto;
+    background-image: linear-gradient(to right, #d4f2fd, #f6e3e2, #fff6d5);
+}
+
+.row p {
+    color: black;
+}
+
+.row h6 {
+     color: #398FB9;
+}
+
+.row a {
+    color: black;
+}
+
+.gwc-footer-details {
+    font-size: 15px;
+    text-align: start;
+}

@@ -1,20 +1,209 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-/*---Styles for smaller screens---*/
-@media (max-width: 780px) {
-    #get-involved {
-        text-align: center;
-        width: auto;
-   }
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/*This is a placeholder background gradient. We will add the background image once the content team makes it!*/
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 body {
-    background-image: linear-gradient(to bottom right, #d4f2fd, #f6e3e2, #fff6d5);
-    height: 100%;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  background-image: url("../assets/Background-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.about {
+  height: auto;
+}
+
+.about-header {
+  background-image: url("../assets/Half-Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.about-header h1 {
+  text-align: center;
+  padding: 50px;
+  color: #398fb9;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  letter-spacing: 10px;
+  font-weight: bolder;
+  font-size: 80px;
+  border-top-width: 40px;
+  padding-top: 200px;
+  line-height: 1.4;
+}
+
+.about-title {
+  text-align: left-center;
+  margin-top: 50px;
+  color: #398fb9;
+  font-family: "Arial", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 200px;
+  text-transform: uppercase;
+  margin-top: 150px;
+  margin-bottom: 60px;
+}
+.about-info {
+  text-align: left;
+  margin-top: 20px;
+  color: black;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  padding-left: 200px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-right: 200px;
+  margin-bottom: 100px;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 90px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #f6e3e2 0%, #e5f8ff 100%);
+  padding: 30px;
+  border-radius: 25px;
+  width: 240px;
+  height: 360px;
+  box-sizing: border-box;
+  border: 4px solid #f3dad8;
+  box-shadow: 0 8px 20px rgba(246, 227, 226, 0.3), 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(246, 227, 226, 0.4), 0 4px 12px rgba(0, 0, 0, 0.08);
+  border-color: #edc9c5;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #f3dad8;
+  box-shadow: 0 4px 12px rgba(246, 227, 226, 0.4);
+}
+
+.members-description {
+  text-align: center;
+  margin-top: 18px;
+  color: #2c2c2c;
+  font-family: "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 80px;
+}
+
+.members-description p {
+  color: #666;
+  margin-top: 5px;
+  font-size: 14px;
+}
+.link-blue {
+  color: #398fb9;
+  text-decoration: underline;
+}
+
+.link-blue:hover {
+  color: #2a6d8f;
+}
+
+.profile-card h4{
+ font-weight: bold;
+}
+
+.linkedin-btn {
+  margin-top: 15px;
+  padding: 8px;
+  background-color: #f6e3e2;
+  color: #d4918e;
+  text-decoration: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 2px solid #f0d0ce;
+  transition: all 0.3s ease;
+}
+
+.linkedin-btn svg {
+  width: 30px;
+  height: 30px;
+}
+
+.linkedin-btn:hover {
+  background-color: #f0d0ce;
+  color: #c47a76;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(246, 227, 226, 0.5);
+}
+
+.github-btn {
+  margin-top: 15px;
+  padding: 8px;
+  background-color: #f6e3e2;
+  color: #d4918e;
+  text-decoration: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border: 2px solid #f0d0ce;
+  transition: all 0.3s ease;
+}
+
+.github-btn svg {
+  width: 30px;
+  height: 30px;
+}
+
+.github-btn:hover {
+  background-color: #f0d0ce;
+  color: #c47a76;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(246, 227, 226, 0.5);
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: auto;
+  padding-top: 15px;
 }
