@@ -48,12 +48,20 @@
     background-size: cover; 
     background-attachment: fixed;
     max-height: 100%;
+    object-fit: cover;
+    position: relative;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
     max-width: 100%;
     height: auto;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
     background-image: url('../index-images/second-bg.png');
     background-size: cover;
     background-position: center;
@@ -85,64 +93,137 @@ body {
     max-width: 100%;
 }
 
+.logo-arrow {
+    position: absolute;
+    left: 38%;
+    bottom: 27%;
+    width: 56.11px;
+    max-width: 12%;
+    pointer-events: none;
+}
+
 /*about section*/
 .about-grid {
-    max-width: 100%;
-    margin: 80px auto;
-    margin-top: 160px;
+    max-width: 1280px;
+    margin: 80px auto 40px;
     display: grid;
-    grid-template-columns: 2fr 1.1fr 1.2fr;
-    gap: 50px;
-    padding: 40px 0;
-
+    grid-template-columns: 2.2fr 360px 340px;
+    gap: 30px;
+    padding: 10px 20px;
+    align-items: start;
 }
 
-.about-text h2,
-.meet-info h2 {
-    font-weight: bold;
-    margin-bottom: 15px;
-    max-width: 100%;
-
+.about-text {
+    padding-left: 36px;
+    padding-top: 6px;
+    text-align: left;
+    color: #222;
 }
 
-.about-text p,
-.meet-info p {
-    line-height: 1.7;
-    font-size: 1.05rem;
-    max-width: 100%;
-
-}
-/*images*/
-.topright-img {
-    width: 100%;
-    border-radius: 12px;
+.about-text h2 {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
-.bottomleft-img {
-    width: 100%;
-    border-radius: 12px;
+.about-text p {
+    max-width: 640px;
+    line-height: 1.75;
+    margin-bottom: 18px;
+}
+
+.about-text, .meet-info, .sesame-column {
+    min-height: 460px;
 }
 
 .sesame-column {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    align-items: stretch;
+    justify-content: space-between;
+    min-height: 460px;
+    padding: 0;
+}
+/*images*/
+.topright-img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 12px;
+    display: block;
+    margin-left: auto;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    object-fit: cover;
+    height: 340px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.bottomleft-img {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 12px;
+    display: block;
+    margin-right: auto;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+    object-fit: cover;
+    height: 180px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.meet-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 6px;
+    padding-top: 6px;
+    z-index: 2;
+}
+
+.meet-info h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 700;
+}
+
+.sesame-img {
     max-width: 100%;
 }
 
 /*events*/
 .events {
     max-width: 100%;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin: 30px auto 80px;
+    position: relative;
 }
 
-.events-boxes {
-    margin: 25px 0;
+ .events-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 24px;
+ }
+ 
+ .events-left {
+    flex: 1;
+ }
+
+ .events-right {
+    width: 220px;
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+ }
+
+ .events-boxes {
+    margin: 12px 0 0;
     max-width: 100%;
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 18px;
 }
 
 .event-box {
@@ -150,14 +231,34 @@ body {
     height: 110px;
     background: #e0e0e0 ;
     border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.04);
 }
 
 .full-calendar-link {
     color: #007bff;
     text-decoration: none;
     font-weight: 600;
+    align-self: flex-start;
+    margin-top: 8px;
 }
 
 .full-calendar-link:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+    .about-grid {
+        grid-template-columns: 1fr; 
+        gap: 18px;
+        padding: 8px;
+    }
+    .about-text, .meet-info, .sesame-column {
+        min-height: auto; 
+    }
+    .topright-img, .bottomleft-img {
+        width: 100%; 
+        max-width: 100%; 
+        height: auto;
+        margin: 0; 
+    }
 }

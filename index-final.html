@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/index-final.css">
   <link rel="stylesheet" href="./css/navbar.css">
   <link rel="stylesheet" href="./css/footer.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <link rel="icon" type="image/png" href="./index-images/gwc-logo.png">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   <title>Girls Who Code at UNCG</title>
-    <link rel="icon" type="image/png" href="./assets/gwc_logo.png">
+   
 </head>
 <body>
   <!--navigation-->
-
      <section id="nav-bar">
       <nav class="navbar navbar-expand-lg bg-white shadow-sm">
           <div class="container-fluid">
@@ -52,6 +52,7 @@
             <img src="./index-images/gwc-logo.png" class="gwc-logo-logo" alt="Girls Who Code Logo">
             <div class="uncg-tag">@UNC Greensboro</div>
           </div>
+          <img src="./index-images/cursor.png" class="logo-arrow" alt="yellow arrow near logo">
         </section>
 <!--About + Meeting-->
 <section class="about-grid container">
@@ -80,14 +81,18 @@
   </div>
 </section>
 <!--events section-->
-<section class="events container text-center">
-  <h3>UPCOMING EVENTS</h3>
-
-  <div class="events-boxes d-flex justify-content-center gap-3">
-    <div class="event-box">
-    <div class="event-box">
-    </div>
-    <a href="https://calendar.google.com/calendar/embed?src=girlswhocodeatuncg%40gmail.com&ctz=America%2FNew_York" target="blank" class="full-calendar-link">Full Calendar >></a>
+<section class="events container">
+  <div class="events-row d-flex align-items-start">
+    <div class="events-left">
+      <h3>UPCOMING EVENTS</h3>
+      <div class="events-boxes d-flex gap-3">
+        <div class="event-box"></div>
+        <div class="event-box"></div>
+        </div>
+      </div>
+      <div class="events-right">
+        <a href="https://calendar.google.com/calendar/embed?src=girlswhocodeatuncg%40gmail.com&ctz=America%2FNew_York" target="_blank" class="full-calendar-link">Full Calendar >></a>
+      </div>
   </div>
 </section>
   <!-- Footer -->
@@ -163,6 +168,6 @@
       <!-- Section: Links -->
     </div>
   </footer>
-<script src=".js/index.js"></script>
+<script src="./js/index.js"></script>
 </body>
 </html>>
