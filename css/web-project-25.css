@@ -1,12 +1,91 @@
 /*This is a placeholder background gradient. We will add the background image once the content team makes it!*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
 body {
     height: 100%;
     background-image: url('../assets/Background-4.jpg');
     background-size: cover;
     background-position: center;
+    font-family: 'Roboto', sans-serif;
+    color: #0c1e3d; 
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Playfair Display', serif;
+    color: #bfa034;
+}
+.navbar{
+    background-color: white;
+}
+
+.navbar .nav-link {
+    color: #0c1e3d;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.navbar .nav-link.active {
+    color: #bfa034;
+}
+
+footer{
+    background-color: #0c1e3d;
+    color: white;
+    padding: 40px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer a {
+    color: #bfa034;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
 }
 
 .developer-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.developer {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.developer h1 {
+    font-family: 'Playfair Display', serif;
+    color: #0c1e3d;
+}
+.developer p{
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+button {
+    background-color: #bfa034;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+button:hover {
+    background-color: #99802f;
 }
