@@ -7,6 +7,20 @@
 
 }
 
+.our-team {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.team-banner {
+    width: 350px;
+    max-width: 90%;
+    border-radius: 15px;
+    border: 4px solid #bfa034;
+    display: block;
+    margin: 0 auto;
+}
 
 body {
     height: 100%;
