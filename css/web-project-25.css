@@ -9,17 +9,31 @@
 
 .our-team {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .team-banner {
-    width: 350px;
-    max-width: 90%;
-    border-radius: 15px;
-    border: 4px solid #bfa034;
+    width: 950px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #bfa034;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 15px;
+}
+
+.our-team h1 {
+    color: #333;
+}
+
+.team-description{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #0c1e3d;
+    max-width: 600px;
+    margin: 10px auto 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
