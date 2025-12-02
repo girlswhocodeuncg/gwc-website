@@ -295,23 +295,6 @@ body {
     text-decoration: underline;
 }
 
-@media (max-width: 1000px) {
-    .about-grid {
-        grid-template-columns: 1fr; 
-        gap: 18px;
-        padding: 8px;
-    }
-    .about-text, .meet-info, .sesame-column {
-        min-height: auto; 
-    }
-    .topright-img, .bottomleft-img {
-        width: 100%; 
-        max-width: 100%; 
-        height: auto;
-        margin: 0; 
-    }
-}
-
 /* Responsive Design for smaller screens */
 @media (max-width: 780px) {
     .about-text, .meet-info {
