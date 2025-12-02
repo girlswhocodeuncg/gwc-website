@@ -202,3 +202,7 @@ body {
   margin-top: auto;
   padding-top: 15px;
 }
+.adjust-img1 {
+  zoom: 0.6;
+  scale: 0.6;
+}
