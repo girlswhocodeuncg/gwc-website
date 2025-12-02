@@ -107,13 +107,18 @@ body {
     max-width: 1280px;
     margin: 80px auto 40px;
     display: grid;
-    grid-template-columns: 2.2fr 360px 340px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+            "aboutText topImage"
+            "bottomImage meetInfo";
     gap: 30px;
-    padding: 10px 20px;
-    align-items: start;
+    padding-right: 24px;
+    align-self: start;
+    position: relative;
 }
 
 .about-text {
+    grid-area: aboutText;
     padding-left: 36px;
     padding-top: 6px;
     text-align: left;
@@ -121,16 +126,31 @@ body {
 }
 
 .about-text h2 {
-    margin-top: 0;
+    margin: 0 0 14px 0;
     margin-bottom: 18px;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-weight: 800;
+    letter-spacing: -2%;
+    width: 482px;
+    height: 91px;
+    top: 954px;
+    left: 57px;
+    font-size: 40px;
+    line-height: 100%;
+    font-style: bold;
 }
 
 .about-text p {
-    max-width: 640px;
-    line-height: 1.75;
+    width: 640.72px;
+    height: 791.72;
+    top: 1033px;
+    left: 57px;
+    line-height: 100%;
     margin-bottom: 18px;
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 10%;
+    font-style: medium;
+    margin: 0;
 }
 
 .about-text, .meet-info, .sesame-column {
@@ -138,6 +158,7 @@ body {
 }
 
 .sesame-column {
+    
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -145,48 +166,76 @@ body {
     justify-content: space-between;
     min-height: 460px;
     padding: 0;
+    position: relative;
 }
 /*images*/
 .topright-img {
-    width: 100%;
+    grid-area: topImage;
+    width: 521px;
+    top: 1046px;
+    left: 879px;
     max-width: 280px;
     border-radius: 12px;
     display: block;
     margin-left: auto;
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
     object-fit: cover;
-    height: 340px;
+    height: 650px;
     z-index: 1;
     overflow: hidden;
 }
 
 .bottomleft-img {
-    width: 100%;
+    grid-area: bottomImage;
+    width: 590px;
+    top: 1764px;
+    left: 83px;
     max-width: 320px;
     border-radius: 12px;
     display: block;
     margin-right: auto;
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
     object-fit: cover;
-    height: 180px;
+    height: 443px;
     z-index: 1;
     overflow: hidden;
+    position: relative;
 }
 
 .meet-info {
-    text-align: left;
+    grid-area: meetInfo;
+    text-align: right;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     padding-left: 6px;
     padding-top: 6px;
     z-index: 2;
+    width: 628px;
+    height: 141px;
+    top: 1897px;
+    left: 744px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 10%;
+    font-style: medium;
 }
 
 .meet-info h2 {
     margin-top: 0;
     margin-bottom: 12px;
-    font-weight: 700;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    text-align: right;
+}
+.about-text h2, .about-text p, .topright-img, .bottomleft-img, .meet-info {
+    position: relative;
+    top: auto;
+    left: auto;
 }
 
 .sesame-img {
