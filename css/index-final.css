@@ -311,3 +311,39 @@ body {
         margin: 0; 
     }
 }
+
+/* Responsive Design for smaller screens */
+@media (max-width: 780px) {
+    .about-text, .meet-info {
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .topright-img, .bottomleft-img {
+        width: 100%; 
+        max-width: 100%; 
+        height: auto;
+        margin: 0; 
+    }
+    .events-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .events-right {
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .about-text h2 {
+        font-size: 28px;
+    }
+    .about-text p {
+        font-size: 18px;
+    }
+    .meet-info h2 {
+        font-size: 28px;
+    }
+    .meet-info {
+        font-size: 18px;
+    }
+    
+}

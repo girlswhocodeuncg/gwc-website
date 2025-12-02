@@ -206,3 +206,22 @@ body {
   margin-top: auto;
   padding-top: 15px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-title, .about-info {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  
+  .members {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .profile-card {
+    width: 100%;
+    height: auto;
+  }
+}
