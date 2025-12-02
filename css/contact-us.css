@@ -23,15 +23,6 @@
     }
 }
 
-/* Small screens adjustments */
-@media (max-width: 480px){
-    .contact-left{ padding: 16px; }
-    .contact-left h3{ font-size: 1rem; }
-    .work-container h3{ font-size: 28px; }
-    .contact-left button{ width: 100%; padding: 12px; }
-    /* fix submit button*/
-}
-
 
 .body, body {
     height: 100%;
@@ -115,3 +106,18 @@
     color: #398fb9;
     padding-left: 100px;
 }
+
+/*Responsive design for smaller screens*/
+@media (max-width: 780px) {
+    .contact-container {
+        flex-direction: column; /* Stack elements */
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        padding: 20px;  
+    }
+    .contact-left {
+        width: 80%;
+    }
+}
+
