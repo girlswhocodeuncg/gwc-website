@@ -33,7 +33,7 @@ It doesn't have to be this size. Adjust as needed*/
   text-align: center;
   text-transform: uppercase;
   padding-top: 25px;
-  text-shadow: 2px 2px 2px #1a516d60;
+  text-shadow: 2px 2px 2px #0b243060;
 }
 .calendar-container {
   display:block;
@@ -99,4 +99,14 @@ padding: 10px;
 border-bottom: 3px solid #398FB9;
 margin: auto;
 width: 50%;
+}
+.blue-link{
+  color: #398FB9;
+}
+.accordion-header{
+  text-align:left;
+  font-size:20px;
+}
+.accordion-list{
+  text-align:left;
 }
