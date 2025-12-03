@@ -108,7 +108,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 3rem; /* space between rows */
-  padding: 40px 0px 40px 0px; /* Top right bottom left*/
+  padding: 40px 0px 40px 0px; /* Top right bottom left */
 }
 
 .row {
@@ -118,50 +118,24 @@ body {
   gap: 2rem;
 }
 
-.about-text h2 {
-    margin: 0 0 14px 0;
-    margin-bottom: 18px;
-    font-weight: 800;
-    letter-spacing: -2%;
-    width: 482px;
-    height: 91px;
-    top: 954px;
-    left: 57px;
-    font-size: 40px;
-    line-height: 100%;
-    font-style: bold;
-    color: #398fb9;
+.about-text, .meet-info {
+  flex: 1;
 }
 
-.about-text p {
-    width: 640.72px;
-    height: 791.72;
-    top: 1033px;
-    left: 57px;
-    line-height: 100%;
-    margin-bottom: 18px;
-    font-weight: 500;
-    font-size: 28px;
-    letter-spacing: 10%;
-    font-style: medium;
-    margin: 0;
+.images {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
-.about-text, .meet-info, .sesame-column {
-    min-height: 460px;
+.sesame-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+  object-fit: cover;
 }
 
-.sesame-column {
-    
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: stretch;
-    justify-content: space-between;
-    min-height: 460px;
-    padding: 0;
-    position: relative;
-}
 /*images*/
 .topright-img {
     grid-area: topImage;
