@@ -85,8 +85,8 @@ body {
     display: inline-block;
     background-color: #ffd875;
     padding: 10px 25px;
-    font-size: 1.3rem;
-    font-weight: 700;
+    font-size: 35px;
+    font-weight: 600;
     border-radius: 6px;
     margin-top: 12px;
     box-shadow: 3px 3px 0px #c9c9c9;
@@ -95,11 +95,12 @@ body {
 
 .logo-arrow {
     position: absolute;
-    left: 38%;
-    bottom: 27%;
+    left: 455px;
+    bottom: 31%;
     width: 56.11px;
     max-width: 12%;
     pointer-events: none;
+    height: 56.11px;
 }
 
 /*about section*/
@@ -137,6 +138,7 @@ body {
     font-size: 40px;
     line-height: 100%;
     font-style: bold;
+    color: #398fb9;
 }
 
 .about-text p {
@@ -231,6 +233,7 @@ body {
     line-height: 100%;
     letter-spacing: -2%;
     text-align: right;
+    color: #398fb9;
 }
 .about-text h2, .about-text p, .topright-img, .bottomleft-img, .meet-info {
     position: relative;
@@ -243,12 +246,27 @@ body {
 }
 
 /*events*/
-.events {
+.events-container {
     max-width: 100%;
     margin: 30px auto 80px;
     position: relative;
+    width: 839px;
 }
 
+.events-left h3 {
+    width: 580px;
+    height: 89px;
+    top: 2304px;
+    left: 430px;
+    font-weight: 800;
+    font-style: bold;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    text-align: center;
+    color: #398fb9;
+
+}
  .events-row {
     display: flex;
     justify-content: space-between;
@@ -276,19 +294,22 @@ body {
 }
 
 .event-box {
-    width: 230px;
-    height: 110px;
-    background: #e0e0e0 ;
+    width: 331.5px;
+    height: 89px;
+    background: #e3e3e3 ;
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.04);
 }
 
 .full-calendar-link {
-    color: #007bff;
+    color: #398fb9;
     text-decoration: none;
-    font-weight: 600;
-    align-self: flex-start;
-    margin-top: 8px;
+    font-weight: 800;
+    font-style: bold;
+    line-height: 100%;
+    letter-spacing: -2%;
+    font-size: 35px;
+    white-space: nowrap;
 }
 
 .full-calendar-link:hover {
