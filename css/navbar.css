@@ -34,11 +34,11 @@
 .nav-item a {
     color: #398FB9;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
 /* 
 .nav-item.contact-us {
     background-color: #FFDB8C;
-<<<<<<< HEAD
     border-radius: 8px;
     border-style: none;
     box-sizing: border-box;
@@ -63,6 +63,3 @@
     -webkit-user-select: none;
     touch-action: manipulation;
 } */
-=======
-}
->>>>>>> e0564ab8cc6f632c795d1edbe1e9887d6cc8f29a
