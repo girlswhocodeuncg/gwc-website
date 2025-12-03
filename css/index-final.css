@@ -118,6 +118,23 @@ body {
   gap: 2rem;
 }
 
+.about-text h2 {
+    color: #398fb9;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: -2%;
+}
+
+.about-text {
+    color: #000000;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 10%;
+
+}
+
 .about-text, .meet-info {
   flex: 1;
 }

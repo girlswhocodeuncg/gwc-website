@@ -209,6 +209,7 @@ body {
 .adjust-img1 {
   zoom: 0.6;
   scale: 0.6;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
