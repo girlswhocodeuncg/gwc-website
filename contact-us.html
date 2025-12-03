@@ -22,7 +22,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="index-final.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>
@@ -41,22 +41,26 @@
       </div>
     </nav>
   </section>
-<body>
-<div class="contact-container">
-  <form action="" class="contact-left">
+
+<section id="contact-main">
+  <div class="contact-container">
+    <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+    <input type="hidden" name="access_key" value="a96adb65-7d31-4e57-b678-cd3c4bc1ee06">
     <h3>Name</h3>
     <input type="text"  name="name" placeholder="Your Name" class="contact-inputs"  required>
     <h3>Email Address</h3>
     <input type="email"  name="email" placeholder="Your Email" class="contact-inputs"  required>
     <h3>Your Message</h3>
     <textarea name="message"  placeholder="Your Message"  class="contact-inputs"  required></textarea>
-    <button type="submit">Submit</button>
-  </form>
-  <div class="contact-right">
-</body>
-<div class="work-container">
-  <h3>Want to <br> work <br> with us?</h3>
-</div>
+    <button type="submit" class = "submit">Submit</button>
+    </form>
+    <div class="contact-right">
+      <div class="work-container">
+        <h3>Want to <br> work <br> with us?</h3>
+      </div>
+    </div>
+  </div>
+</section>
 
 
   <!-- Footer -->
