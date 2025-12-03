@@ -6,6 +6,7 @@ footer {
 
 .row p {
     color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .row h6 {
@@ -14,6 +15,7 @@ footer {
 
 .row a {
     color: black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .gwc-footer-details {
