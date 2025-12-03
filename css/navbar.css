@@ -34,35 +34,18 @@
 .nav-item a {
     color: #398FB9;
     font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
 }
-/* 
-.nav-item.contact-us {
-    background-color: #FFDB8C;
-<<<<<<< HEAD
+
+.navbar .contact-us a {
+    font-weight: 600;
+    box-shadow: rgb(188, 188, 188) 3px 3px 0px;
+    max-width: 100%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(255, 216, 117);
+    border-image: initial;
+    padding: 6px 14px;
     border-radius: 8px;
-    border-style: none;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    cursor: pointer;
-    display: inline-block;
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    font-weight: 500;
-    height: 40px;
-    line-height: 20px;
-    list-style: none;
-    margin: 0;
-    outline: none;
-    padding: 10px 16px;
-    position: relative;
-    text-align: center;
-    text-decoration: none;
-    transition: color 100ms;
-    vertical-align: baseline;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-} */
-=======
+    transition: 0.25s;
 }
->>>>>>> e0564ab8cc6f632c795d1edbe1e9887d6cc8f29a
