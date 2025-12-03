@@ -49,19 +49,6 @@ h1,h2,h3,h4,h5,h6 {
     font-family: 'Playfair Display', serif;
     color: #bfa034;
 }
-.navbar{
-    background-color: white;
-}
-
-.navbar .nav-link {
-    color: #0c1e3d;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-}
-
-.navbar .nav-link.active {
-    color: #bfa034;
-}
 
 footer{
     background-color: #0c1e3d;
