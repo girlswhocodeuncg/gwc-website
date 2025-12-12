@@ -5,8 +5,7 @@
 
 /*------------Navigation bar--------*/
 #nav-bar {
-    position: sticky;
-    height: 40px;
+    position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
