@@ -26,3 +26,7 @@ body {
 .project-card a:hover {
     text-decoration: underline;
 }
+
+.portfolio-container {
+    margin: 50px;
+}
