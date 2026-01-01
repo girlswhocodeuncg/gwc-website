@@ -58,6 +58,7 @@
 
 .contact-left h3{
     font-size: Large;
+    margin-top: 30px;
 }
 
 .contact-left-title hr{
@@ -106,6 +107,7 @@
     color: #398fb9;
     padding-left: 100px;
 }
+
 
 /*Responsive design for smaller screens*/
 @media (max-width: 780px) {
